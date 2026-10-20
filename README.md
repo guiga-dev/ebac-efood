@@ -48,3 +48,8 @@ URL prevista: https://guiga-dev.github.io/ebac-efood/
 - src/domain: contratos de entrada/saída.
 - tests: testes unitários e de interação, com dados sintéticos.
 - public/assets: assets originais usados; ver ASSETS.md.
+
+## Validação de integração
+
+Além dos testes simulados, o responsável pela revisão confirmou o fluxo pela interface com dados explicitamente fictícios no endpoint educacional: catálogo, perfil, modal, soma do carrinho, entrega, pagamento, retorno de orderId, confirmação e carrinho zerado ao concluir. Nenhum dado de formulário ou cartão usado nessa conferência é armazenado no repositório.
+
